@@ -19,7 +19,7 @@ export default function Home() {
             <ul>
                 <li>UX Research</li>
                 <li>UI Design</li>
-                <li>Contente Production</li>
+                <li>Content Production</li>
                 <li>Consultancy</li>
             </ul>
         </section>
