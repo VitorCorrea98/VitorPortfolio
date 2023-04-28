@@ -31,7 +31,7 @@ export default function Home() {
             <li>
                 <div  className="project-name" id="project-rettaSeguros">
                     <h3>Retta Seguros</h3>
-                    <p>Website Redesing</p>
+                    <p>Website Redesign</p>
                 </div>
             </li>
             <li>

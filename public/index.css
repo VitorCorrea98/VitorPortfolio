@@ -91,6 +91,7 @@ body {
 #project-rettaSeguros{
     backdrop-filter: blur(4px);
     background-image: linear-gradient(1deg, #0b6682 4%, #105572 51%, #154663 98%);
+    color: white;
 }
 /* SECTION PROJECTS END */
 
