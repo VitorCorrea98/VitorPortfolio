@@ -1,3 +1,1 @@
-<!-- HOME PAGE NOTES -->
-
-<!-- HOME PAGE NOTES END -->
+Fazer uma funcao para cada parte do home page  - Para fazer - Check

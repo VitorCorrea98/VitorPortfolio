@@ -17,25 +17,25 @@ body {
 
 /* HEADER START */
 
-#home-header-container{
+header{
     display: flex;
     justify-content: space-around;
     padding: 20px;
     align-items: center;
 }
 
-#home-header-container h1{
+header h1{
     font-family: "Oswald", sans-serif;
     font-size: 36px;
     cursor: pointer;
 }
 
-#home-header-container ul{
+header ul{
     display: flex;
     list-style: none;
 }
 
-#home-header-container ul li{
+header ul li{
     text-decoration: none;
     margin: 20px;
     font-size: 20px;
@@ -47,21 +47,21 @@ body {
 
 /* SECTION HOME SKILLS START*/
 
-#home-skills{
+#skills{
     padding-top: 28px;
 }
 
-#home-skills h2{
+#skills h2{
     font-size: 18px;
     font-weight: 300;
 }
 
-#home-skills ul{
+#skills ul{
     display: flex;
     justify-content:center ;
 }
 
-#home-skills ul li{
+#skills ul li{
     margin: 40px 42px;
 }
 
@@ -69,17 +69,17 @@ body {
 
 /* SECTION PROJECTS START */
 
-.home-projects{
+.projects{
     display: flex;
     justify-content: center;
     font-size: 28px;
 }
 
-.home-projects ul{
+.projects ul{
     padding-bottom: 180px;
 }
 
-.home-projects ul li{
+.projects ul li{
     list-style: none;
     width: 979.6px;
     height: 518px;
@@ -97,7 +97,7 @@ body {
 
 #project-rettaSeguros{
     background-size: cover;
-    background-image: url(../public/Pictures/rectangle-34.png);
+    background-image: url(../../../public/Pictures/rectangle-34.png);
 }
 
 #project-rettaSeguros-Title{
@@ -116,33 +116,33 @@ body {
 
 /* FOOTER STARTS */
 
-#home-footer{
+footer{
     
     padding-top: 40px;
     background-color: black;
     color: white;
 }
 
-#home-footer h4{
+footer h4{
     font-size: 28px;
 }
 
-#home-footer ul{
+footer ul{
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
-#home-footer ul li{
+footer ul li{
     margin: 40px 35px 100px;
     cursor: pointer;
 }
 
-#home-footer ul li div {
+footer ul li div {
     display: flex;
 }
 
-#home-footer ul li div p{
+footer ul li div p{
     margin-left: 6px;
 }
 
