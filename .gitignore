@@ -25,3 +25,5 @@ yarn-error.log*
 .json*
 
 .git*
+/notes.md
+/.gitattributes
