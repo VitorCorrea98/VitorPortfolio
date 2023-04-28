@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -20,7 +25,7 @@ body {
 }
 
 #home-header-container h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Oswald", sans-serif;
     font-size: 36px;
     cursor: pointer;
 }
@@ -34,6 +39,8 @@ body {
     text-decoration: none;
     margin: 20px;
     font-size: 20px;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
 }
 
 /* HEADER END */
@@ -62,17 +69,17 @@ body {
 
 /* SECTION PROJECTS START */
 
-#home-projects{
+.home-projects{
     display: flex;
     justify-content: center;
     font-size: 28px;
 }
 
-#home-projects ul{
+.home-projects ul{
     padding-bottom: 180px;
 }
 
-#home-projects ul li{
+.home-projects ul li{
     list-style: none;
     width: 979.6px;
     height: 518px;
@@ -89,10 +96,22 @@ body {
 }
 
 #project-rettaSeguros{
+    background-size: cover;
+    background-image: url(../public/Pictures/rectangle-34.png);
+}
+
+#project-rettaSeguros-Title{
     backdrop-filter: blur(4px);
     background-image: linear-gradient(1deg, #0b6682 4%, #105572 51%, #154663 98%);
     color: white;
+    padding: 15px 54px;
 }
+
+#project-rettaSeguros-Title h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+
 /* SECTION PROJECTS END */
 
 /* FOOTER STARTS */

@@ -3,7 +3,7 @@ export default function Home() {
         <div>
 
         <header id="home-header-container">
-            <h1>Mariana Ribiero Vaz</h1>
+            <h1>Mariana Ribeiro Vaz</h1>
             <nav >
                 <ul >
                     <li>About</li>
@@ -26,10 +26,10 @@ export default function Home() {
 
         <hr />
 
-        <section id="home-projects">
+        <section className="home-projects">
         <ul>
-            <li>
-                <div  className="project-name" id="project-rettaSeguros">
+            <li id="project-rettaSeguros">
+                <div  className="project-name" id="project-rettaSeguros-Title">
                     <h3>Retta Seguros</h3>
                     <p>Website Redesign</p>
                 </div>
@@ -71,7 +71,7 @@ export default function Home() {
                 <li>
                     <div>
                         <i className="fa-regular fa-file-lines"></i>
-                        <p>PDF Resume</p>
+                        <p>PDF Portfolio</p>
                     </div>
                 </li>
             </ul>
