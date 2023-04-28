@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ede3e3;
+    text-align: center;
+    align-items: center;
+}
+
+/* HEADER START */
+
+#home-header-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+#home-header-container h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+#home-header-container ul{
+    display: flex;
+    list-style: none;
+}
+
+#home-header-container ul li{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+}
+
+/* HEADER END */
+
+/* SECTION HOME SKILLS START*/
+
+#home-skills{
+    padding-top: 28px;
+}
+
+#home-skills h2{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#home-skills ul{
+    display: flex;
+    justify-content:center ;
+}
+
+#home-skills ul li{
+    margin: 40px 42px;
+}
+
+/* SECTION HOME SKILLS END */
+
+/* SECTION PROJECTS START */
+
+#home-projects{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+
+#home-projects ul{
+    padding-bottom: 180px;
+}
+
+#home-projects ul li{
+    list-style: none;
+    width: 979.6px;
+    height: 518px;
+    background-color: #d9d9d9;
+    margin-top: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-name{
+    background-color: #f5f5f5;
+    padding: 15px 54px;
+}
+
+#project-rettaSeguros{
+    backdrop-filter: blur(4px);
+    background-image: linear-gradient(1deg, #0b6682 4%, #105572 51%, #154663 98%);
+}
+/* SECTION PROJECTS END */
+
+/* FOOTER STARTS */
+
+#home-footer{
+    
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+}
+
+#home-footer h4{
+    font-size: 28px;
+}
+
+#home-footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#home-footer ul li{
+    margin: 40px 35px 100px;
+    cursor: pointer;
+}
+
+#home-footer ul li div {
+    display: flex;
+}
+
+#home-footer ul li div p{
+    margin-left: 6px;
+}
+
+/* FOOTER END */
