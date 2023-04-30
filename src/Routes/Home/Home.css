@@ -26,36 +26,35 @@ html {
 
 /* HEADER START */
 
-header{
+#Home-header{
     display: flex;
     padding: 20px;
     align-items: center;
     justify-content: center;
 }
 
-header h1 a{
+#Home-header h1 a{
     font-family: "Oswald", sans-serif;
     font-size: 36px;
     text-decoration: none;
     color: black;
 }
 
-header nav {
+#Home-header nav {
     margin-left: 300px;
 }
 
-header  ul{
+#Home-header  ul{
     display: flex;
     list-style: none;
 }
 
-header ul li a {
+#Home-header ul li a {
     margin: 20px;
     text-decoration: none;
     font-family: "Oswald", sans-serif;
     color: black;
     font-size: 20px;
-    transition: 0.5s ease;
 }
 
 
@@ -133,13 +132,14 @@ header ul li a {
 /* FOOTER STARTS */
 
 footer{
-    
+    font-family: "Oswald", sans-serif;
     padding-top: 40px;
     background-color: black;
     color: white;
 }
 
 footer h4{
+    font-family: "Oswald", sans-serif;
     font-size: 28px;
 }
 
@@ -156,10 +156,12 @@ footer ul li{
 
 footer ul li div {
     display: flex;
+    align-items: center;
 }
 
 footer ul li div p{
     margin-left: 6px;
+    font-family: "Oswald", sans-serif;
 }
 
 /* FOOTER END */

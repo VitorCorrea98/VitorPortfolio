@@ -1,9 +1,8 @@
 import { Component } from "react";
 import "./Home.css"
 import Header from "./Header";
-import Skills from "./Skills";
-import Projects from "./Projects";
 import Footer from "./Footer";
+import Main from "./Main";
 
 class Home extends Component {
     render() {
@@ -11,11 +10,7 @@ class Home extends Component {
                 <div>
                     <Header/>
             
-                    <Skills/>
-            
-                    <hr />
-            
-                    <Projects/>
+                    <Main/>
             
                     <Footer />
                 </div>

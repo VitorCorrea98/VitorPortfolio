@@ -3,12 +3,12 @@ import { Link} from "react-router-dom"
 
 export default function Header() {
     return(
-            <header>
-                <h1><Link to="/">Mariana Ribeiro Vaz</Link></h1>
+            <header id="Home-header">
+                <h1><Link to="/home">Mariana Ribeiro Vaz</Link></h1>
                 <nav >
                     <ul >
                         <li>
-                            <Link to="about">About</Link>
+                            <Link to="/about">About</Link>
                         </li>
                         <li>
                             <a href="#section-resume">Resume</a>
