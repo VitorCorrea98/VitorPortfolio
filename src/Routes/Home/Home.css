@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #ede3e3;
+    text-align: center;
+    align-items: center;
+}
+
+#error-page{
+    margin-top: 10em;
+    font-size: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER START */
+
+header{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 a{
+    font-family: "Oswald", sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+}
+
+header nav {
+    margin-left: 300px;
+}
+
+header  ul{
+    display: flex;
+    list-style: none;
+}
+
+header ul li a {
+    margin: 20px;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    color: black;
+    font-size: 20px;
+    transition: 0.5s ease;
+}
+
+
+/* HEADER END */
+
+/* SECTION HOME SKILLS START*/
+
+#skills{
+    padding-top: 28px;
+}
+
+#skills h2{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#skills ul{
+    display: flex;
+    justify-content:center ;
+}
+
+#skills ul li{
+    margin: 40px 42px;
+}
+
+/* SECTION HOME SKILLS END */
+
+/* SECTION PROJECTS START */
+
+.projects{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.projects ul{
+    padding-bottom: 180px;
+}
+
+.projects ul li{
+    list-style: none;
+    width: 979.6px;
+    height: 518px;
+    background-color: #d9d9d9;
+    margin-top: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-name{
+    background-color: #f5f5f5;
+    padding: 15px 54px;
+}
+
+#project-rettaSeguros{
+    background-size: cover;
+    background-image: url(../../../public/Pictures/rectangle-34.png);
+}
+
+#project-rettaSeguros-Title{
+    backdrop-filter: blur(4px);
+    background-image: linear-gradient(1deg, #0b6682 4%, #105572 51%, #154663 98%);
+    color: white;
+    padding: 15px 54px;
+}
+
+#project-rettaSeguros-Title h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* SECTION PROJECTS END */
+
+/* FOOTER STARTS */
+
+footer{
+    
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+}
+
+footer h4{
+    font-size: 28px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li{
+    margin: 40px 35px 100px;
+    cursor: pointer;
+}
+
+footer ul li div {
+    display: flex;
+}
+
+footer ul li div p{
+    margin-left: 6px;
+}
+
+/* FOOTER END */
