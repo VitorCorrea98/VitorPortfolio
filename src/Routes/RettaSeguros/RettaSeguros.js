@@ -1,15 +1,16 @@
 import { Component } from "react";
-import "./About.css"
+import "./RettaSeguros.css"
 import Header from "./Header";
-import Main from "./Main";
-import Footer from "../../Components/Footer-All-Pages";
 
-class About extends Component {
+import Footer from "../../Components/Footer-All-Pages";
+import Main from "./Main";
+
+class RettaSeguros extends Component {
     render() {
         return (
           <div>
             <Header />
-  
+
             <Main />
 
             <Footer />
@@ -18,4 +19,4 @@ class About extends Component {
     }
 }
 
-export default About
+export default RettaSeguros

@@ -2,7 +2,7 @@ function Profile() {
     return(
         <section id="About-Profile">
             <h2>Creating digital experiences with empathy and innovation. Always looking for new challenges, always learning, always creating.</h2>
-            <img src="/Pictures/Mari-profile.png" alt="Profile" />
+            <img src="/Pictures/About/Mari-profile.png" alt="Profile" />
         </section>
     )
 }
@@ -11,7 +11,7 @@ function Experiences() {
     return(
         <section id="About-Experiences">
             <div id="About-WhatIDo">
-                <p>WHATI I DO</p>
+                <p>WHAT I DO</p>
                 <ul>
                     <li>Experience Design</li>
                     <li>Content Creation</li>
@@ -48,8 +48,8 @@ function Me() {
 export default function Main() {
     return(
         <>
-            <Profile/>
-            <Experiences/>
+            <Profile />
+            <Experiences />
             <Me/>
         </>
     )

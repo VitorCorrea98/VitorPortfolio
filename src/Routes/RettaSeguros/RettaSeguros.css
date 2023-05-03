@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* HEADER START */
+
+#RettaSeguros-header{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#RettaSeguros-header h1 a{
+    font-family: "Oswald", sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+}
+
+#RettaSeguros-header nav {
+    margin-left: 300px;
+}
+
+#RettaSeguros-header  ul{
+    display: flex;
+    list-style: none;
+}
+
+#RettaSeguros-header ul li a {
+    margin: 20px;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+#Project-name{
+    margin: 75px 0;
+    font-size: 36px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+
+
+/* HEADER END */
+
+/* SECTION RETTA-ROLE START */
+
+#Retta-Role{
+    display: grid;
+    grid-template-rows: auto;
+    margin-top: 70px;
+}
+
+#Retta-Role > p{
+    display: grid;
+    font-size: 24px;
+    justify-items: center;
+}
+
+.conteudo-centralizado{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.conteudo-centralizado p{
+    grid-column: 2;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.Pictures-role{
+    display: grid;
+    grid-template-columns: 1fr 290px 200px 270px  1fr;
+    margin-top: 50px;
+}
+
+.imgRole-1{
+    height: 309px;
+    width: 194px;
+    grid-column: 2;
+}
+
+.imgRole-2{
+    height: 209px;
+    max-width: 320px;
+    grid-column: 4;
+    align-self: center;
+}
+
+/* SECTION RETTA-ROLE END */
+
+/* SECTION PESQUISA START */
+
+#Retta-Pesquisa{
+    display: grid;
+    grid-template-rows: auto;
+    margin-top: 70px;
+}
+
+#Retta-Pesquisa > p {
+    display: grid;
+    grid-template-columns: 1fr 290px 200px 270px  1fr;
+    margin-top: 50px;
+}
+
+#Retta-Pesquisa > p > strong{
+    grid-column: 2;
+    font-size: 28px;
+    font-family: "Oswald", sans-serif;
+}
+
+#Pesquisa > p{
+    text-align: center;
+    font-size: 24px;
+    margin: 25px 0 30px;
+}
+
+.Retta-pesquisa-images{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Retta-pesquisa-images img{
+    margin: 40px 0;
+    max-width: 770px;
+}
+
+/* SECTION PESQUISA END */
+
+/* SECTION DESIGN ATUAL START */
+
+#Retta-DesignAtual{
+    display: grid;
+    grid-template-rows: auto;
+    margin-top: 70px;
+}
+
+#Retta-DesignAtual > p {
+    display: grid;
+    grid-template-columns: 1fr 290px 200px 270px  1fr;
+    margin-top: 50px;
+}
+
+#Retta-DesignAtual > p > strong{
+    grid-column: 2;
+    font-size: 28px;
+    font-family: "Oswald", sans-serif;
+}
+
+.Fotos-DesignAtual{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Fotos-DesignAtual img{
+    margin: 30px 20px;
+    width: 600px;
+}
+
+/* SECTION DESIGN ATUAL END */
+
+/* SECTION AVALIACAO START */
+
+.Retta-Avaliacao{
+    display: grid;
+    grid-template-columns: 0.5fr auto 200px 1fr;
+    grid-template-rows: auto auto auto;
+    margin-top: 70px;
+}
+
+.Retta-Avaliacao > p{
+    grid-column: 2;
+}
+
+.Retta-Avaliacao > p > strong{
+    font-family: "Oswald", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#Avaliacao-Estetica{
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#Avaliacao-Estetica ul{
+    margin: 12px 0 0 30px ;
+}
+
+#Avaliacao-Estetica > ul > li::marker{
+    font-size: 18px;
+}
+
+#Avaliacao-Consistencia{
+    grid-column: 2;
+    grid-row: 3;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+#Avaliacao-Consistencia ul{
+    margin: 10px 0 90px 30px ;
+}
+
+#Avaliacao-Consistencia > ul > li{
+    margin: 5px 0;
+}
+
+#Avaliacao-Consistencia > ul > li::marker{
+    font-size: 18px;
+}
+
+/* SECTION AVALIACAO END */
+
+/* SECTION DESIGN START */
+
+.Retta-Design{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.Retta-Design > p {
+    margin-left: -56%;
+}
+
+.Retta-Design > p > strong{
+    font-size: 28px;
+    font-family: "Oswald", sans-serif;
+}
+
+.Retta-Design img{
+    margin: 20px;
+    width: 350px;;
+}
+
+.Pictures-3{
+    display: flex;
+    align-items: center;
+}
+
+.Retta-Design ul{
+    display: grid;
+    grid-template-columns: 0.5fr auto 200px 1fr;
+    grid-template-rows: auto auto auto;
+    margin: 70px 0 0 40px;
+}
+
+.Retta-Design > ul > li{
+    grid-column: 2;
+    font-size: 24px;
+    margin: 5px 0 0 0 ;
+    letter-spacing: 1px;
+}
+
+.Retta-Design > ul > li::marker{
+    font-size: 18px;
+}
+
+/* SECTION DESIGN END */
+
+/* SECTION DESIGN SYSTEM START */
+
+.Retta-Design-System{
+    display: grid;
+    grid-template-columns: 0.5fr auto 200px 0.75fr;
+    margin: 50px 0 120px 0;
+}
+
+.Retta-Design-System > p{
+    grid-column: 2;
+}
+
+.Retta-Design-System > p > strong{
+    font-family: "Oswald", sans-serif;
+    font-size: 28px;
+}
+
+.Retta-Design-System > img{
+    grid-column: 2;
+    margin: 30px 0 70px;
+    width: 450px;
+}
+
+.Retta-Design-System > div{
+    grid-column: 2;
+}
+
+.Retta-Design-System > div > p > strong{
+    font-family: "Oswald", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.Retta-Design-System > div > ul {
+    margin: 12px 0 0 30px ;
+}
+
+.Retta-Design-System > div > ul > li{
+    margin: 15px 0;
+    font-size: 24px;
+}
+/* SECTION DESIGN SYSTEM END */

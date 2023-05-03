@@ -11,8 +11,6 @@
 
 body {
     background-color: #ede3e3;
-    text-align: center;
-    align-items: center;
 }
 
 #error-page{
@@ -55,6 +53,7 @@ html {
     font-family: "Oswald", sans-serif;
     color: black;
     font-size: 20px;
+    transition: 0.5s ease;
 }
 
 
@@ -69,6 +68,7 @@ html {
 #skills h2{
     font-size: 18px;
     font-weight: 300;
+    text-align: center;
 }
 
 #skills ul{
@@ -105,6 +105,10 @@ html {
     align-items: center;
 }
 
+.projects a{
+    text-decoration: none;
+}
+
 .project-name{
     background-color: #f5f5f5;
     padding: 15px 54px;
@@ -112,14 +116,20 @@ html {
 
 #project-rettaSeguros{
     background-size: cover;
-    background-image: url(../../../public/Pictures/rectangle-34.png);
+    background-image: url(../../../public/Pictures/Home/RettaSeguros-Project.png);
+    border-radius: 15px;
+}
+
+#project-rettaSeguros:hover{
+    background-blend-mode: screen;
+    opacity: 1;
 }
 
 #project-rettaSeguros-Title{
-    backdrop-filter: blur(4px);
     background-image: linear-gradient(1deg, #0b6682 4%, #105572 51%, #154663 98%);
     color: white;
     padding: 15px 54px;
+    opacity: 0;
 }
 
 #project-rettaSeguros-Title h3{
@@ -141,6 +151,7 @@ footer{
 footer h4{
     font-family: "Oswald", sans-serif;
     font-size: 28px;
+    text-align: center;
 }
 
 footer ul{
